@@ -1,0 +1,10 @@
+name: AAP
+version: 1.0
+main: ru.TheHelpix.AAP.Main
+author: TheHelpix
+description: AdminAccountProtect for VK API
+website: https://vk.com/sayhe
+
+commands:
+  aap:
+    description: command AAP
