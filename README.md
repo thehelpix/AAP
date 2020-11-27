@@ -1,6 +1,5 @@
 <p align="center">
 <a href="https://choosealicense.com/licenses/mit/"><img src="https://i.imgur.com/5kzwAQP.png" alt="License"></a>
-</p>
 
 
 # AAP
@@ -12,3 +11,5 @@
 
 ## Лицензия
 [MIT](https://choosealicense.com/licenses/mit/)
+
+</p>
