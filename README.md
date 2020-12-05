@@ -13,3 +13,6 @@
 
 ## Лицензия
 [MIT](https://choosealicense.com/licenses/mit/)
+
+## Links
+[SpigotMC](https://www.spigotmc.org/resources/aap.84913/)
