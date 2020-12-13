@@ -1,5 +1,5 @@
 <p align="center">
-<a href="https://choosealicense.com/licenses/mit/"><img src="https://i.imgur.com/5kzwAQP.png" alt="License"></a>
+<a href="https://choosealicense.com/licenses/mit/"><img src="https://i.imgur.com/gSJMwFU.png" alt="License"></a>
 </p>
 
 
