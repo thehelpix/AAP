@@ -3,3 +3,7 @@
 vk:
   token: токен
   server: "Тестовый сервак"
+
+permissions:
+  - 'litebans'
+  - 'test'

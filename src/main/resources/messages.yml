@@ -1,0 +1,23 @@
+## %player% - Ник игрока
+## %ip% - ip игрока
+
+game_messages:
+  admin_broadcast:
+    joinAdmin: "&aАдминистратор &c%player%&a зашёл на сервер!"
+    noAdminJoin: "&cПопытка входа на сервер &4%player%&c ip: &4%ip%"
+    wrongCode: "&cАдминистратор &4%player%&c ввёл не правильно код ip: &4%ip%"
+    accessCode: "&aАдминистратор &2%player%&a авторизовался!"
+  kick_messages:
+    removeKick: "&cВас убрали из Протекта!"
+    noIsAdmin: "&cПопытка входа."
+  auth_messages:
+    getCode: "&aВведи код из ВК!"
+    wrongCode: "&cКод не правильный!"
+    accessCode: "&2Код правильный!"
+vk_messages:
+  ## %code% - Рандомный код
+  ## %idvk% - ID ВК игрока
+  ## %player% - Ник игрока
+  ## %server% - Название режима
+  ## %ip% - IP адресс игрока
+  sendCode: "Твой код: %code%\nПривет [id%idvk%|%player%]!\nКто-то зашёл с твоего аккаунта на режим %server%\n\nIP: %ip%"
