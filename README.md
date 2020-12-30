@@ -13,7 +13,8 @@
 
 ## Links
 <a href="https://vk.com/hdevhome"><b>hDev</b></a><br>
-<a href="https://www.spigotmc.org/resources/aap.84913/"><b>SpigotMC</b></a>
+<a href="https://www.spigotmc.org/resources/aap.84913/"><b>SpigotMCorg</b></a><br>
+<a href="https://spigotmc.ru/resources/aap-admin-account-protect.476/"><b>SpigotMCru</b></a>
 
 ## Лицензия
 [MIT](https://choosealicense.com/licenses/mit/)
