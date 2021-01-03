@@ -9,6 +9,10 @@ public class HashUtils {
         return (Main.getInstance().login.containsKey(p) && Main.getInstance().login.get(p) == 0);
     }
 
+    public static Boolean isHashAuthedAdmin(Player p) {
+        return (Main.getInstance().login.containsKey(p) && Main.getInstance().login.get(p) != 0);
+    }
+
     public static void removeHashAdmin(Player p) {
         Main.getInstance().login.remove(p);
     }

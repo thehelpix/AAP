@@ -50,7 +50,7 @@ public class Events implements Listener {
             }
             if (!Utils.checkCode(player, event.getMessage())) {
                 event.setCancelled(true);
-                event.getPlayer().sendMessage(Color.parseColors("&6[AAP] "+MsgConfigUtils.getAuthMsg("wrongCode")));
+                event.getPlayer().sendMessage(Color.parseColors("&6[AAP] "+ MsgConfigUtils.getAuthMsg("wrongCode")));
                 AdminMessageUtils.noAdminCode(player);
             }
         }

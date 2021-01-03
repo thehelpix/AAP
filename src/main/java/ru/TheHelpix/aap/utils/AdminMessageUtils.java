@@ -10,8 +10,10 @@ public class AdminMessageUtils {
     public static void joinAdmin(Player p) {
         InetAddress ip = p.getAddress().getAddress();
         for (Player pp : Bukkit.getOnlinePlayers()) {
-            if (Main.getInstance().login.get(pp) != 0) {
-                pp.sendMessage(Color.parseColors("&6[AAP] "+MsgConfigUtils.getAdminBc("joinAdmin").replace("%player%", p.getName()).replace("%ip%", String.valueOf(ip))));
+            if (Utils.isPermissions(pp)) {
+                if (HashUtils.isHashAuthedAdmin(pp)) {
+                    pp.sendMessage(Color.parseColors("&6[AAP] " + MsgConfigUtils.getAdminBc("joinAdmin").replace("%player%", p.getName()).replace("%ip%", String.valueOf(ip))));
+                }
             }
         }
     }
@@ -28,8 +30,10 @@ public class AdminMessageUtils {
     public static void noAdminCode(Player p) {
         InetAddress ip = p.getAddress().getAddress();
         for (Player pp : Bukkit.getOnlinePlayers()) {
-            if (Main.getInstance().login.get(pp) != 0) {
-                pp.sendMessage(Color.parseColors("&6[AAP] "+MsgConfigUtils.getAdminBc("wrongCode").replace("%player%", p.getName()).replace("%ip%", String.valueOf(ip))));
+            if (Utils.isPermissions(pp)) {
+                if (HashUtils.isHashAuthedAdmin(pp)) {
+                    pp.sendMessage(Color.parseColors("&6[AAP] " + MsgConfigUtils.getAdminBc("wrongCode").replace("%player%", p.getName()).replace("%ip%", String.valueOf(ip))));
+                }
             }
         }
     }
@@ -37,8 +41,10 @@ public class AdminMessageUtils {
     public static void loginAdmin(Player p) {
         InetAddress ip = p.getAddress().getAddress();
         for (Player pp : Bukkit.getOnlinePlayers()) {
-            if (Main.getInstance().login.get(pp) != 0) {
-                pp.sendMessage(Color.parseColors("&6[AAP] "+MsgConfigUtils.getAdminBc("accessCode").replace("%player%", p.getName()).replace("%ip%", String.valueOf(ip))));
+            if (Utils.isPermissions(pp)) {
+                if (HashUtils.isHashAuthedAdmin(pp)) {
+                    pp.sendMessage(Color.parseColors("&6[AAP] " + MsgConfigUtils.getAdminBc("accessCode").replace("%player%", p.getName()).replace("%ip%", String.valueOf(ip))));
+                }
             }
         }
     }
