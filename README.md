@@ -2,7 +2,7 @@
 <a href="https://choosealicense.com/licenses/mit/"><img src="https://i.imgur.com/gSJMwFU.png" alt="License"></a>
 </p>
 
-
+Version => 1.2 not support Open-Source.
 
 # AAP
 <b>Admin Account Protect</b>
